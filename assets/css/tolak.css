@@ -801,7 +801,7 @@ h6 {
   display: inline-block;
   width: 30px;
   height: 2px;
-  background-color: var(--tolak-base, #3d72fc);
+  background-color: var(--tolak-white, #fff);
   margin-right: 10px;
 }
 .sec-title__tagline__right {
@@ -810,7 +810,7 @@ h6 {
   display: inline-block;
   width: 30px;
   height: 2px;
-  background-color: var(--tolak-base, #3d72fc);
+  background-color: var(--tolak-white, #fff);
   margin-left: 10px;
 }
 .sec-title__title {
