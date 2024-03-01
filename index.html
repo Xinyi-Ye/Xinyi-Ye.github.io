@@ -43,18 +43,18 @@
     <div class="custom-cursor__cursor-two"></div>
 
     <div class="preloader">
-        <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+        <div class="preloader__image" style="background-image: url(assets/images/favicons/loader-logo.png);"></div>
     </div>
     
     <!-- /.preloader -->
     <div class="page-wrapper">
-        <header class="main-header-four sticky-header sticky-header--one-page">
+        <header class="main-header-inner sticky-header sticky-header--normal">
             <div class="container-fluid">
                 <div class="main-header-four__inner">
                     
                     <!-- /.main-header__logo -->
                     <div class="main-header-four__logo">
-                        <img src="assets/images/logo-text.png" alt="HS HTML" width="184">
+                        <img src="assets/images/favicons/header-logo.png" alt="HS HTML" width="184">
                     </div>
                     
                     <!-- /.main-header__nav -->
@@ -62,14 +62,8 @@
                         <ul class="main-menu__list one-page-scroll-menu">
                             <li class="scrollToLink current"><a href="#home">首页</a></li>
                             <li class="scrollToLink"><a href="#gyhs">关于浩深</a></li>
-                            <li class="dropdown scrollToLink"><a href="#cpjs">产品介绍</a>
-                                <ul>
-                                    <li class="scrollToLink"><a href="#ycsy">远程实验</a></li>
-                                    <li class="scrollToLink"><a href="#gxjc">光学检测</a></li>
-                                    <li class="scrollToLink"><a href="#nxyq">农学仪器</a></li>
-                                    <li class="scrollToLink"><a href="#gxsy">光纤实验</a></li>
-                                </ul>
-                            </li>
+                            <li class="scrollToLink"><a href="#yyly">应用领域</a></li>
+                            <li class="scrollToLink"><a href="#cpzx">产品中心</a></li>
                             <li class="scrollToLink"><a href="#contact">联系我们</a></li>
                         </ul>
                     </nav>
@@ -89,6 +83,7 @@
                             </div>
                         </a>
                     </div>
+
                 </div>
             </div>
         </header>
@@ -96,27 +91,28 @@
         <!-- home -->
         <section class="main-slider-four" id="home">
             <div class="main-slider-four__carousel tolak-owl__carousel owl-carousel" data-owl-options='{
-		"loop": true,
-		"animateOut": "fadeOut",
-		"animateIn": "fadeIn",
-		"items": 1,
-		"autoplay": true,
-		"autoplayTimeout": 7000,
-		"smartSpeed": 1000,
-		"nav": false,
-        "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
-		"dots": true,
-		"margin": 0
-	    }'>
+                "loop": true,
+                "animateOut": "fadeOut",
+                "animateIn": "fadeIn",
+                "items": 1,
+                "autoplay": true,
+                "autoplayTimeout": 7000,
+                "smartSpeed": 1000,
+                "nav": false,
+                "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
+                "dots": true,
+                "margin": 0
+                }'>
+
+                <!-- image 1 -->
                 <div class="item">
                     <div class="main-slider-four__item">
-                        <div class="main-slider-four__bg" style="background-image: url(assets/images/backgrounds/temp-bg-1.png);"></div>
-                        <div class="main-slider-four__bg" style="background-image: url(assets/images/backgrounds/temp-bg-1.png);"></div>
-                        <div class="main-slider-four__bg" style="background-image: url(assets/images/backgrounds/temp-bg-1.png);"></div>
+                        <div class="main-slider-four__bg" style="background-image: url(assets/images/backgrounds/header-bg.png);"></div>
+                        <div class="main-slider-four__bg" style="background-image: url(assets/images/backgrounds/header-bg.png);"></div>
+                        <div class="main-slider-four__bg" style="background-image: url(assets/images/backgrounds/header-bg.png);"></div>
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12 text-center">
-                                    <!-- slider-text -->
                                     <div class="main-slider-four__content">
                                         <h5 class="main-slider-four__sub-title">Welcome</h5>
                                         <h3 class="main-slider-four__title-two">杭州浩深科学仪器有限公司</h3>
@@ -129,11 +125,13 @@
                         </div>
                     </div>
                 </div>
+                
+                <!-- image 2 -->
                 <div class="item">
                     <div class="main-slider-four__item">
-                        <div class="main-slider-four__bg" style="background-image: url(assets/images/backgrounds/temp-bg-1.png);"></div>
-                        <div class="main-slider-four__bg" style="background-image: url(assets/images/backgrounds/temp-bg-1.png);"></div>
-                        <div class="main-slider-four__bg" style="background-image: url(assets/images/backgrounds/temp-bg-1.png);"></div>
+                        <div class="main-slider-four__bg" style="background-image: url(assets/images/backgrounds/header-bg.png);"></div>
+                        <div class="main-slider-four__bg" style="background-image: url(assets/images/backgrounds/header-bg.png);"></div>
+                        <div class="main-slider-four__bg" style="background-image: url(assets/images/backgrounds/header-bg.png);"></div>
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12 text-center">
@@ -146,23 +144,26 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
 
         <!-- 关于浩深 -->
-        <section class="testimonials-three" id="gyhs">
-            <div class="testimonials-three__bg jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%"></div>
+        <section class="blog-three" id="gyhs">
             <div class="container">
+                
                 <div class="sec-title-two text-center">
                     <h6 class="sec-title-two__tagline"><span class="sec-title-two__tagline__left icofont-rounded-double-left"></span>关于浩深<span class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6>
                 </div>
-                <div class="row">
+                
+                <div class="row wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
                     <div class="col-lg-6">
                         <div class="testimonials-three__image">
                             <img src="assets/images/backgrounds/gyhs-bg.png">
-                            <div class="our-solution__image__shape"><img src="assets/images/shapes/solution-1-shape-1.png"></div>
+                            <div class="our-solution__image__shape"><img src="assets/images/shapes/double-circle-shape.png"></div>
                         </div>
                     </div>
+                    
                     <div class="col-lg-6">
                         <div class="testimonials-three__content">
                             <h3 class="testimonials-three__content__title">杭州浩深科学仪器有限公司</h3>
@@ -172,61 +173,44 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
         
-        <!-- 产品介绍 -->   
-        <section class="service-one service-one--home-four" id="cpjs">
+        <!-- 应用领域 -->   
+        <section class="blog-three" id="yyly">
             <div class="container">
+                
                 <div class="sec-title-two text-center">
-                    <h6 class="sec-title-two__tagline"><span class="sec-title-two__tagline__left icofont-rounded-double-left"></span>产品介绍<span class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6>
+                    <h6 class="sec-title-two__tagline"><span class="sec-title-two__tagline__left icofont-rounded-double-left"></span>应用领域<span class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6>
                 </div>
-                <div class="service-one__carousel tolak-owl__carousel tolak-owl__carousel--basic-nav owl-carousel owl-theme" data-owl-options='{
-			"items": 1,
-			"margin": 30,
-			"loop": false,
-			"smartSpeed": 700,
-			"nav": false,
-			"navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
-			"dots": true,
-			"autoplay": false,
-			"responsive": {
-				"0": {
-					"items": 1
-				},
-				"768": {
-					"items": 2
-				},
-				"992": {
-					"items": 3
-				}
-			}
-			}'>
+                
+                <div class="row gutter-y-30">    
+                    
                     <!-- card 远程实验 -->        
-                    <div class="item">
-                        <div class="service-one__item text-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-one__item text-center wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
                             <div class="service-one__item__top-shape"></div>
                             <div class="service-one__item__hover"></div>
                             <div class="service-one__item__icon">
                                 <span class="icofont-cube"></span>
                             </div>
                             <h3 class="service-one__item__title">远程实验</h3>
-                            <p class="service-one__item__text">单片机远程实验平台</p>
+                            <p class="service-one__item__text">远程共享实验平台</p>
                             <ul class="service-one__item__list">
                                 <li><p></p></li>
-                                <li><p class="scrollToLink"><span class="icofont-double-right"></span><a href="#qrs">嵌入式系统远程实验仪</a></p></li>
+                                <li><p class="scrollToLink"><span class="icofont-double-right"></span><a href="#">嵌入式系统远程实验仪</a></p></li>
                                 <li><p></p></li>
                             </ul>
                             <div class="service-one__item__bottom">
-                                <div class="service-one__item__bottom__number"></div>
-                                <li class="service-one__item__bottom__rm scrollToLink"><a href="#ycsy">了解更多<span class="fas fa-angle-double-right"></span></a></li>
+                                <div class="service-one__item__bottom__text">01</div>
                             </div>
                         </div>
                     </div>
 
                     <!-- card 光学检测 -->        
-                    <div class="item">
-                        <div class="service-one__item text-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-one__item text-center wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
                             <div class="service-one__item__top-shape"></div>
                             <div class="service-one__item__hover"></div>
                             <div class="service-one__item__icon">
@@ -236,19 +220,18 @@
                             <p class="service-one__item__text">照度、亮度、光度、色度测量仪器</p>
                             <ul class="service-one__item__list">
                                 <li><p></p></li>
-                                <li><p class="scrollToLink"><span class="icofont-double-right"></span><a href="#lyzdj">蓝牙照度计</a></p></li>
+                                <li><p class="scrollToLink"><span class="icofont-double-right"></span><a href="products/1-1.html">蓝牙照度计</a></p></li>
                                 <li><p></p></li>
                             </ul>
                             <div class="service-one__item__bottom">
-                                <div class="service-one__item__bottom__number"></div>
-                                <li class="service-one__item__bottom__rm scrollToLink"><a href="#gxjc">了解更多<span class="fas fa-angle-double-right"></span></a></li>
+                                <div class="service-one__item__bottom__text">02</div>
                             </div>
                         </div>
                     </div>
 
                     <!-- card 农学仪器 -->        
-                    <div class="item">
-                        <div class="service-one__item text-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-one__item text-center wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
                             <div class="service-one__item__top-shape"></div>
                             <div class="service-one__item__hover"></div>
                             <div class="service-one__item__icon">
@@ -258,19 +241,18 @@
                             <p class="service-one__item__text">病害监测仪器</p>
                             <ul class="service-one__item__list">
                                 <li><p></p></li>
-                                <li><p class="scrollToLink"><span class="icofont-double-right"></span><a href="#bzy">智能孢子监测系统</a></p></li>
+                                <li><p class="scrollToLink"><span class="icofont-double-right"></span><a href="#">智能孢子监测系统</a></p></li>
                                 <li><p class="scrollToLink"><span class="icofont-double-right"></span><a href="#">植物栽培架</a></p></li>
                             </ul>
                             <div class="service-one__item__bottom">
-                                <div class="service-one__item__bottom__number"></div>
-                                <li class="service-one__item__bottom__rm scrollToLink"><a href="#nxyq">了解更多<span class="fas fa-angle-double-right"></span></a></li>
+                                <div class="service-one__item__bottom__text">03</div>
                             </div>
                         </div>
                     </div>
 
                     <!-- card 光纤实验 -->        
-                    <div class="item">
-                        <div class="service-one__item text-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-one__item text-center wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
                             <div class="service-one__item__top-shape"></div>
                             <div class="service-one__item__hover"></div>
                             <div class="service-one__item__icon">
@@ -284,15 +266,14 @@
                                 <li><p></p></li>
                             </ul>
                             <div class="service-one__item__bottom">
-                                <div class="service-one__item__bottom__number"></div>
-                                <li class="service-one__item__bottom__rm scrollToLink"><a href="#gxsy">了解更多<span class="fas fa-angle-double-right"></span></a></li>
+                                <div class="service-one__item__bottom__text">04</div>
                             </div>
                         </div>
                     </div>
 
                     <!-- card 物联网软件 -->        
-                    <div class="item">
-                        <div class="service-one__item text-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-one__item text-center wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
                             <div class="service-one__item__top-shape"></div>
                             <div class="service-one__item__hover"></div>
                             <div class="service-one__item__icon">
@@ -306,240 +287,41 @@
                                 <li><p></p></li>
                             </ul>
                             <div class="service-one__item__bottom">
-                                <div class="service-one__item__bottom__number"></div>
-                                <li class="service-one__item__bottom__rm scrollToLink"><a href="#ycsy">了解更多<span class="fas fa-angle-double-right"></span></a></li>
+                                <div class="service-one__item__bottom__text">05</div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
 
-        <!-- 远程实验 -->
-        <section class="service-one service-one--home-four" style="background-image: url(assets/images/backgrounds/text-bg.png);" id="ycsy">
-            <div class="container tabs-box">
+        <!-- 产品中心 -->
+        <section class="blog-three" id="cpzx">
+            <div class="container">
+                
                 <div class="sec-title-two text-center">
-                    <h6 class="sec-title__tagline"><span class="sec-title__tagline__left"></span>远程实验<span class="sec-title__tagline__right"></span></h6>
+                    <h6 class="sec-title-two__tagline"><span class="sec-title-two__tagline__left icofont-rounded-double-left"></span>产品中心<span class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6>
                 </div>
                 
-                <!-- 嵌入式系统远程实验仪 -->
-                <div class="row" id="qrs">
-                    <div class="col-xl-6">
-                        <div class="about-four__image">
-                            <!--<img src="assets/images/resources/about-4-2.jpg" alt="tolak"> -->
-                        </div>
-                    </div>
-                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="200ms">
-                        <div class="about-four__content">
-                            <div class="sec-title-two text-left">
-                                <h3 class="sec-title-two__title">嵌入式系统远程实验仪</h3>
+                <div class="row gutter-y-30">
+                    
+                    <!-- product card 1 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="blog-card-three wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
+                            <div class="blog-card-three__image">
+                                <img src="assets/images/products/lyzdj.png">
+                                <img src="assets/images/products/lyzdj.png">
+                                <div class="blog-card-three__date">光学检测</div>
+                                <a href="./products/1-1.html" class="blog-card-three__image__link"><i class="icon-right-arrow"></i><span class="sr-only"></span></a>
                             </div>
-                            <p class="about-four__content__text">
-                                产品介绍
-                            </p>
-                            <div class="about-four__tabs">
-                                <div class="tabs-content">
-                                    <div class="tab fadeInUp animated active-tab" id="qrs-cptd">
-                                        <ul class="about-four__content__list">
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                        </ul>
-                                    </div>
-                                    <div class="tab fadeInUp animated" id="qrs-yycj">
-                                        <ul class="about-four__content__list">
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                        </ul>
-                                    </div>
-                                    <div class="tab fadeInUp animated" id="qrs-jszb">
-                                        <ul class="about-four__content__list">
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <ul class="list-unstyled tab-buttons about-four__tabs__list">
-                                    <li data-tab="#qrs-cptd" class="tab-btn active-btn">产品特点</li>
-                                    <li data-tab="#qrs-yycj" class="tab-btn">应用场景</li>
-                                    <li data-tab="#qrs-jszb" class="tab-btn">技术指标</li>
-                                </ul>
+                            <div class="blog-card-three__content">
+                                <h3 class="blog-card-three__title"><a href="./products/1-1.html">蓝牙照度计</a></h3>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- 光学检测 -->
-        <section class="service-one service-one--home-four" style="background-image: url(assets/images/backgrounds/text-bg.png);" id="gxjc">
-            <div class="container tabs-box">
-                <div class="sec-title-two text-center">
-                    <h6 class="sec-title__tagline"><span class="sec-title__tagline__left"></span>光学检测<span class="sec-title__tagline__right"></span></h6>
-                </div>
-                
-                <!-- 蓝牙照度计 -->
-                <div class="row" id="lyzdj">
-                    <div class="col-xl-6">
-                        <div class="about-four__image">
-                            <img src="assets/images/products/lyzdj.jpg" alt="lyzdj"> 
-                        </div>
-                    </div>
-                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="200ms">
-                        <div class="about-four__content">
-                            <div class="sec-title-two text-left">
-                                <h3 class="sec-title-two__title">蓝牙照度计</h3>
-                            </div>
-                            <p class="about-four__content__text">
-                                XYI-II型全数字照度计执行JB/T 7403-94《光照度计》中华人民共和国机械行业标准。全数字照度计以数字V(λ)传感器替代传统的模拟V(λ)传感器，以全数字照度信号检测系统替代现有的模拟信号检测系统。彻底改变了以模拟信号检测方法为基础的现有照度计，由于应用了数字技术，该仪器不产生零点漂移，并应用计算机软件定标，系统稳定性高。
-                            </p>
-                            <div class="about-four__tabs">
-                                <div class="tabs-content">
-                                    <div class="tab fadeInUp animated active-tab" id="lyzdj-cptd">
-                                        <ul class="about-four__content__list">
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><span class="icofont-checked"></span><p>数字V(λ)传感器光谱响应达国家一级照度计标准</p></li>
-                                            <li><span class="icofont-checked"></span><p>全量程测量，无换档误差</p></li>
-                                            <li><span class="icofont-checked"></span><p>OLCD显示</p></li>
-                                            <li><span class="icofont-checked"></span><p>蓝牙通讯</p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                        </ul>   
-                                    </div>
-                                    <div class="tab fadeInUp animated" id="lyzdj-yycj">
-                                        <ul class="about-four__content__list">
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                        </ul>
-                                    </div>
-                                    <div class="tab fadeInUp animated" id="lyzdj-jszb">
-                                        <ul class="about-four__content__list"> 
-                                            <li><span class="icofont-checked"></span><p>动态范围：0.1-100,000lx</p></li>
-                                            <li><span class="icofont-checked"></span><p>仪器精度：优于±4%</p></li>
-                                            <li><span class="icofont-checked"></span><p>分辨率：0.001lx</p></li>
-                                            <li><span class="icofont-checked"></span><p>重复性：0.001lx</p></li>
-                                            <li><span class="icofont-checked"></span><p>温度系数：-0.1%/°C</p></li>
-                                            <li><span class="icofont-checked"></span><p>刷新频率：3次/s(≥1lx)，1次/2s(＜1lx)</p></li>
-                                            <li><span class="icofont-checked"></span><p>供电电源：4.2V电池带充电器</p></li>
-                                            <li><span class="icofont-checked"></span><p>主机尺寸：70L×35W×35H(mm)</p></li>
-                                            <li><span class="icofont-checked"></span><p>开机3分钟后自动关机</p></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <ul class="list-unstyled tab-buttons about-four__tabs__list">
-                                    <li data-tab="#lyzdj-cptd" class="tab-btn active-btn">产品特点</li>
-                                    <li data-tab="#lyzdj-yycj" class="tab-btn">应用场景</li>
-                                    <li data-tab="#lyzdj-jszb" class="tab-btn">技术指标</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- 农学 -->
-        <section class="service-one service-one--home-four" style="background-image: url(assets/images/backgrounds/text-bg.png);" id="nxyq">
-            <div class="container tabs-box">
-                <div class="sec-title-two text-center">
-                    <h6 class="sec-title__tagline"><span class="sec-title__tagline__left"></span>农学仪器<span class="sec-title__tagline__right"></span></h6>
-                </div>
-
-                <!-- 嵌入式系统远程实验仪 -->
-                <div class="row" id="bzy">
-                    <div class="col-xl-6">
-                        <div class="about-four__image">
-                            <!--<img src="assets/images/resources/about-4-2.jpg" alt="tolak"> -->
-                        </div>
-                    </div>
-                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="200ms">
-                        <div class="about-four__content">
-                            <div class="sec-title-two text-left">
-                                <h3 class="sec-title-two__title">智能孢子监测系统</h3>
-                            </div>
-                            <p class="about-four__content__text">
-                                产品介绍
-                            </p>
-                            <div class="about-four__tabs">
-                                <div class="tabs-content">
-                                    <div class="tab fadeInUp animated active-tab" id="bzy-cptd">
-                                        <ul class="about-four__content__list">
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                        </ul>   
-                                    </div>
-                                    <div class="tab fadeInUp animated" id="bzy-yycj">
-                                        <ul class="about-four__content__list">
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                        </ul>
-                                    </div>
-                                    <div class="tab fadeInUp animated" id="bzy-jszb">
-                                        <ul class="about-four__content__list">
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                            <li><p></p></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <ul class="list-unstyled tab-buttons about-four__tabs__list">
-                                    <li data-tab="#bzy-cptd" class="tab-btn active-btn">产品特点</li>
-                                    <li data-tab="#bzy-yycj" class="tab-btn">应用场景</li>
-                                    <li data-tab="#bzy-jszb" class="tab-btn">技术指标</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div>   
             </div>
         </section>
 
@@ -547,9 +329,11 @@
         <section class="testimonials-three" id="contact">
             <div class="testimonials-three__bg jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%"></div>
             <div class="container">
+                
                 <div class="sec-title-two text-center">
                     <h6 class="sec-title-two__tagline"><span class="sec-title-two__tagline__left icofont-rounded-double-left"></span>联系我们<span class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6><!-- /.sec-title-two__tagline -->
                 </div>
+                
                 <div class="row">
                     <div class="col-lg-6">
                         <ul class="footer-widget__info">
@@ -563,7 +347,7 @@
                     </div>
                     <div class="col-lg-2">
                         <div class="testimonials-three__image">
-                            <img src="assets/images/gzh.jpg">
+                            <img src="assets/images/QRcode/gzh-QRcode.jpg">
                         </div>
                         <ul class="footer-widget__info">
                             <li></li>
@@ -573,7 +357,7 @@
                     <div class="col-lg-2"></div>
                     <div class="col-lg-2">
                         <div class="testimonials-three__image">
-                            <img src="assets/images/cpzx.png">
+                            <img src="assets/images/QRcode/cpzx-QRcode.png">
                         </div>
                         <ul class="footer-widget__info">
                             <li></li>
@@ -581,6 +365,7 @@
                         </ul>
                     </div>
                 </div>
+
             </div>
         </section>
 

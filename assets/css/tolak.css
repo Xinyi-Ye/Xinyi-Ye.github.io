@@ -2256,14 +2256,14 @@ h6 {
 .blog-card-three {
   position: relative;
   background-color: var(--tolak-white, #fff);
-  border: 1px solid var(--tolak-border2-color, #eaf0fa);
+  border: 1px solid var(--tolak-border-color, #dddddd);
   padding: 0;
 }
 .blog-card-three__image {
   position: relative;
   z-index: 2;
   overflow: hidden;
-  margin: 0 -1px;
+  margin: 0 0;
 }
 .blog-card-three__image img {
   transition: 0.5s;
@@ -2336,20 +2336,22 @@ h6 {
   left: 30px;
   top: 0;
   z-index: 1;
-  width: 62px;
+  width: 35px;
   border: 2px solid var(--tolak-base, #3d72fc);
   text-align: center;
   font-size: 15px;
   color: var(--tolak-white, #fff);
   line-height: 1;
   padding: 2px 5px 8px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 .blog-card-three__date::after {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
-  height: 62%;
+  height: 88%;
   background-color: var(--tolak-base, #3d72fc);
   content: "";
   z-index: -1;
@@ -2370,6 +2372,7 @@ h6 {
 .blog-card-three__content {
   position: relative;
   padding: 28px 30px 24px;
+  text-align: center;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .blog-card-three__content {
@@ -2380,7 +2383,7 @@ h6 {
 .blog-card-three__title {
   margin: 0;
   color: var(--tolak-black, #051d1f);
-  font-size: 22px;
+  font-size: 20px;
   line-height: 28px;
   margin-bottom: 10px;
 }
@@ -4837,11 +4840,17 @@ h6 {
 }
 
 .main-header-inner {
+  background-color: transparent;
   position: absolute;
   left: 0;
-  top: 32px;
+  top: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   width: 100%;
-  z-index: 99;
+  z-index: 9;
+}
+.main-header-inner .container-fluid,
+.main-header-inner .container {
+  padding-right: 0;
 }
 .main-header-inner__inner {
   display: flex;
@@ -6478,6 +6487,7 @@ body.megamenu-popup-active .mobile-nav__content {
   margin: 47px 0 0 -100px;
   padding: 70px 60px;
   box-shadow: 0px 0px 117px 0px rgba(12, 62, 185, 0.08);
+  border: 5px solid var(--tolak-base, #3d72fc);
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .testimonials-three__content {
@@ -8944,9 +8954,10 @@ body.megamenu-popup-active .mobile-nav__content {
   margin-bottom: 17px;
 }
 .product-details__title {
-  font-size: 35px;
+  font-size: 30px;
   text-transform: capitalize;
   margin: 0;
+  margin-top: 5px;
 }
 .product-details__price {
   font-size: 22px;
@@ -9109,8 +9120,9 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .product-details__description__title {
   text-transform: capitalize;
-  font-size: 35px;
-  margin-bottom: 24px;
+  font-size: 22px;
+  margin-bottom: 12px;
+  margin-top: 28px;
 }
 .product-details__description__text {
   margin-bottom: 30px;
@@ -11070,7 +11082,7 @@ body.megamenu-popup-active .mobile-nav__content {
   bottom: 0;
   background-color: var(--tolak-black, #051d1f);
   opacity: 0.3;
-  cursor: url(../images/close.png), auto;
+  cursor: url(../images/shapes/close-shape.png), auto;
 }
 
 .mobile-nav__content {
@@ -11279,7 +11291,7 @@ body.megamenu-popup-active .mobile-nav__content {
   -webkit-transition-delay: 0.3s;
   background-color: #000;
   opacity: 0.9;
-  cursor: url(../images/close.png), auto;
+  cursor: url(../images/shapes/close-shape.png), auto;
 }
 @media (max-width: 767px) {
   .search-popup__overlay {
@@ -11435,7 +11447,7 @@ body.megamenu-popup-active .mobile-nav__content {
   bottom: 0;
   background-color: var(--tolak-black3, #000);
   opacity: 0.5;
-  cursor: url(../images/close.png), auto;
+  cursor: url(../images/shapes/close-shape.png), auto;
 }
 .sidebar-one__close {
   position: absolute;
@@ -11627,12 +11639,12 @@ body.megamenu-popup-active .mobile-nav__content {
   top: 0;
   left: 0;
   height: 100%;
-  width: 49.93%;
+  width: 100%;
   background-repeat: no-repeat;
   background-position: left center;
   background-size: cover;
   opacity: 0.17;
-  background-image: url(../images/shapes/page-header-bg-1-2.png);
+  background-image: url(../images/backgrounds/product-header-bg.png);
   border-radius: 0 0 0 180px;
 }
 @media (max-width: 1199px) {
@@ -11651,7 +11663,7 @@ body.megamenu-popup-active .mobile-nav__content {
   bottom: 18%;
   width: 100%;
   height: 100%;
-  background-image: url(../images/shapes/page-header-bg-shape-1.png);
+  background-image: url(../images/shapes/page-header-shape-1.png);
   background-repeat: no-repeat;
   background-position: bottom right;
   animation: zoomBig 3s linear infinite;
@@ -11681,7 +11693,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .page-header__title {
   margin: 0 0 12px;
-  font-size: 70px;
+  font-size: 45px;
   color: var(--tolak-white, #fff);
   text-transform: capitalize;
 }
@@ -11720,7 +11732,7 @@ body.megamenu-popup-active .mobile-nav__content {
   top: 48px;
   width: 128px;
   height: 126px;
-  background-image: url(../images/shapes/page-header-bg-shape-2.png);
+  background-image: url(../images/shapes/page-header-shape-2.png);
   background-repeat: no-repeat;
   background-position: left center;
   background-size: cover;
@@ -11786,7 +11798,7 @@ body.megamenu-popup-active .mobile-nav__content {
   line-height: 1em;
 }
 .tolak-breadcrumb li a {
-  color: var(--tolak-white, #fff);
+  color: var(--tolak-base, #3d72fc);
   background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
   transition: all 500ms ease;
 }
@@ -15239,7 +15251,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .service-one--home-four {
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 185px;
+  padding-bottom: 120;
 }
 @media (max-width: 767px) {
   .service-one--home-four {
@@ -15516,6 +15528,17 @@ body.megamenu-popup-active .mobile-nav__content {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.service-one__item__bottom__text {
+  margin-left: 100px;
+  margin-right: 100px;
+  position: relative;
+  display: inline-block;
+  font-size: 26px;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--tolak-base, #3d72fc);
 }
 .service-one__item__bottom__rm {
   display: flex;
