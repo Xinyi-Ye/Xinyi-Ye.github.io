@@ -15041,11 +15041,13 @@ body.megamenu-popup-active .mobile-nav__content {
   line-height: 34px;
   color: var(--tolak-text, #636363);
   font-weight: 400;
+  margin-top: 10px;
 }
 .about-four__content__list li p {
   margin: 0;
+  margin-top: 5px;
   display: inline-block;
-  line-height: 1;
+  line-height: 25px;
   background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
   transition: all 500ms ease;
 }
