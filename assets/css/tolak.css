@@ -17,7 +17,7 @@
 --------------------------------------------------------------*/
 :root {
   --tolak-font: "Rubik", sans-serif;
-  --tolak-heading-font: "Raleway", sans-serif;
+  --tolak-heading-font: "Rubik", sans-serif;
   --tolak-text: #636363;
   --tolak-text-rgb: 99, 99, 99;
   --tolak-text2: #9fa0a0;
@@ -291,7 +291,7 @@ h5,
 h6 {
   font-family: var(--tolak-heading-font, "Raleway", sans-serif);
   color: var(--tolak-black, #051d1f);
-  font-weight: 700;
+  font-weight: 600;
 }
 @media (max-width: 575px) {
   h1 br,
@@ -2372,7 +2372,7 @@ h6 {
 }
 .blog-card-three__content {
   position: relative;
-  padding: 28px 30px 24px;
+  padding: 28px 12px 24px;
   text-align: center;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -8955,7 +8955,7 @@ body.megamenu-popup-active .mobile-nav__content {
   margin-bottom: 17px;
 }
 .product-details__title {
-  font-size: 30px;
+  font-size: 28px;
   text-transform: capitalize;
   margin: 0;
   margin-top: 5px;
@@ -11694,7 +11694,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .page-header__title {
   margin: 0 0 12px;
-  font-size: 45px;
+  font-size: 38px;
   color: var(--tolak-white, #fff);
   text-transform: capitalize;
 }
@@ -15464,7 +15464,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .service-one__item__title {
   font-size: 22px;
-  margin: 0 20px 8px;
+  margin: 0 20px 20px;
 }
 .service-one__item__title a {
   color: inherit;
@@ -15481,7 +15481,7 @@ body.megamenu-popup-active .mobile-nav__content {
   margin: 0 20px 11px;
 }
 .service-one__item__list {
-  margin: 0 0 37px;
+  margin: 0 0 15px;
   padding: 0 20px;
   list-style: none;
 }
@@ -15513,7 +15513,7 @@ body.megamenu-popup-active .mobile-nav__content {
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid var(--tolak-border-color, #dddddd);
-  padding: 15px 31px 15px 51px;
+  padding: 5px 31px 5px 51px;
 }
 .service-one__item__bottom__number {
   position: relative;
@@ -15541,7 +15541,7 @@ body.megamenu-popup-active .mobile-nav__content {
   margin-right: 100px;
   position: relative;
   display: inline-block;
-  font-size: 26px;
+  font-size: 25px;
   font-weight: 700;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
