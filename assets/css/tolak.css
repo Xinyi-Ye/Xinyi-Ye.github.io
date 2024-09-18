@@ -6467,7 +6467,8 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 @media (max-width: 991px) {
   .testimonials-three__image img {
-    width: 100%;
+    width: 40%;
+    margin-left: 30px;
   }
 }
 .testimonials-three__image__left {
@@ -6518,6 +6519,13 @@ body.megamenu-popup-active .mobile-nav__content {
     line-height: 40px;
   }
 }
+@media (max-width: 991px) {
+  .testimonials-three__content__title {
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: -30px;
+  }
+}
 .testimonials-three__content__title::before {
   position: relative;
   display: block;
@@ -6542,6 +6550,13 @@ body.megamenu-popup-active .mobile-nav__content {
   line-height: 40px;
   font-weight: 400;
   margin: 0 0 20px;
+}
+@media (max-width: 991px) {
+  .testimonials-card-three__content {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: -10px;
+  }
 }
 .testimonials-card-three__content__quote {
   font-size: 58px;
@@ -8960,6 +8975,11 @@ body.megamenu-popup-active .mobile-nav__content {
   margin: 0;
   margin-top: 5px;
 }
+@media (max-width: 991px) {
+  .product-details__title {
+    font-size: 20px;
+  }
+}
 .product-details__price {
   font-size: 22px;
   line-height: 26px;
@@ -9124,6 +9144,11 @@ body.megamenu-popup-active .mobile-nav__content {
   font-size: 22px;
   margin-bottom: 12px;
   margin-top: 28px;
+}
+@media (max-width: 991px) {
+  .product-details__description__title {
+    font-size: 18px;
+  }
 }
 .product-details__description__text {
   margin-bottom: 30px;
@@ -11618,7 +11643,6 @@ body.megamenu-popup-active .mobile-nav__content {
   background-repeat: no-repeat;
   background-position: right center;
   background-size: cover;
-  background-image: url(../images/backgrounds/page-header-bg-1-1.png);
 }
 @media (max-width: 1199px) {
   .page-header__bg {
@@ -11705,7 +11729,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 @media (max-width: 767px) {
   .page-header__title {
-    font-size: 36px;
+    font-size: 26px;
   }
 }
 .page-header__layer {
